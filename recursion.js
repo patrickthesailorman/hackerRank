@@ -4,10 +4,8 @@ function readLine() {
 }
 
 /////////////// ignore above this line ////////////////////
-
 function factorial(n) {
-    function factorial(n) {
-      var output = 1;
+    var output = 1;
   
   while (n > 1) {
 
@@ -18,7 +16,7 @@ function factorial(n) {
  
   return output;
 }
-}
+
 
 function main() {
     var n = parseInt(readLine());
