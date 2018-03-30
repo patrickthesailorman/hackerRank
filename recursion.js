@@ -18,6 +18,7 @@ function factorial(n) {
  
   return output;
 }
+}
 
 function main() {
     var n = parseInt(readLine());
