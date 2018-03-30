@@ -12,4 +12,6 @@ function factorial(n) {
 function main() {
     var n = parseInt(readLine());
     var result = factorial(n);
-    p
+    process.stdout.write("" + result + "\n");
+
+}
