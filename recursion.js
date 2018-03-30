@@ -6,7 +6,17 @@ function readLine() {
 /////////////// ignore above this line ////////////////////
 
 function factorial(n) {
-    // Complete this function
+    function factorial(n) {
+      var output = 1;
+  
+  while (n > 1) {
+
+    output *= n;
+    
+    n--;
+  }
+ 
+  return output;
 }
 
 function main() {
