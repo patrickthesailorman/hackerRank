@@ -3,7 +3,8 @@ function processData(input) {
         name : String,
         number : Number
     }
-   input.split(" ");
+   var inputArray = [];
+    inputArray = input.split(" ");
     var entries = input[0];
     for (var i = 1; i < entries; i++) { 
         if (input[i] % 2 === 0) {
